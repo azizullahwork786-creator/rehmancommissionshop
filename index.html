@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GrainHub connects farmers, traders, and buyers for wheat, rice, maize, and other grains.">
+  <title>GrainHub | Grain Market & Trading</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="#home"><span class="brand-mark">🌾</span> REHMAN<span> COMMISSION SHOP</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home </a><a href="#grains">About</a><a href="#market">services</a>
+        <a href="#about">contact</a><a href="#contact" class="nav-cta">Contact Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">YOUR TRUSTED GRAIN MARKET</p>
+        <h1>From the Farm<br><span>to the Market.</span></h1>
+        <p class="hero-copy">A simple place for farmers, grain traders, and buyers to connect, explore grain categories, and discuss business.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#grains">Explore Grains</a>
+          <a class="btn btn-outline" href="#contact">Get in Touch</a>
+        </div>
+        <div class="hero-note">Quality grains. Trusted connections. Better opportunities.</div>
+      </div>
+    </section>
+
+    <section class="stats container">
+      <div><strong>04+</strong><span>Grain Categories</span></div>
+      <div><strong>100%</strong><span>Business Focus</span></div>
+      <div><strong>1 Place</strong><span>For Market Connections</span></div>
+    </section>
+
+    <section class="section container" id="grains">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT WE TRADE</p>
+        <h2>Explore Our <span>Grain Products</span></h2>
+        <p>Discover common agricultural commodities available for buying and selling.</p>
+      </div>
+      <div class="grain-grid">
+        <article class="grain-card">
+          <div class="grain-image wheat"></div>
+          <div class="grain-info"><span class="tag">POPULAR</span><h3>Wheat</h3><p>Quality wheat for flour mills, wholesalers, retailers, and food businesses.</p><a href="#contact">Enquire now →</a></div>
+        </article>
+        <article class="grain-card">
+          <div class="grain-image rice"></div>
+          <div class="grain-info"><span class="tag">FOOD GRAIN</span><h3>Rice</h3><p>Explore rice varieties for household, wholesale, and commercial requirements.</p><a href="#contact">Enquire now →</a></div>
+        </article>
+        <article class="grain-card">
+          <div class="grain-image maize"></div>
+          <div class="grain-info"><span class="tag">FEED & FOOD</span><h3>Maize</h3><p>Connect with buyers and sellers of maize for food and feed applications.</p><a href="#contact">Enquire now →</a></div>
+        </article>
+        <article class="grain-card">
+          <div class="grain-image barley"></div>
+          <div class="grain-info"><span class="tag">AGRICULTURE</span><h3>Barley</h3><p>Discuss barley supply for agricultural, food, and other commercial uses.</p><a href="#contact">Enquire now →</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="market-section" id="market">
+      <div class="container">
+        <div class="section-heading light">
+          <p class="eyebrow">MARKET INFORMATION</p>
+          <h2>Sample Grain <span>Market Rates</span></h2>
+          <p></p>
+       </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Grain</th><th>Unit</th><th>Sample Rate (PKR)</th><th>Market Note</th></tr></thead>
+            <tbody>
+              <tr><td>Wheat</td><td>40 kg</td><td>4800</td><td><span class="status">Example rate</span></td></tr>
+              <tr><td>Rice</td><td>40 kg</td><td>5,800</td><td><span class="status">Example rate</span></td></tr>
+              <tr><td>Maize</td><td>40 kg</td><td>3300</td><td><span class="status">Example rate</span></td></tr>
+              <tr><td>Barley</td><td>40 kg</td><td>3,000</td><td><span class="status">Example rate</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-disclaimer">Every customer is special to us,
+Your love and support mean so much.</p>
+      </div>
+    </section>
+
+    <section class="section about-section container" id="about">
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy"><p class="eyebrow">LET'S DO BUSINESS</p><h2>Have Grain to Sell<br>or Looking to Buy?</h2><p>Send your details and tell us which grain you are interested in. Our sample form will show a confirmation on this page.</p>
+          <div class="contact-detail"><span>✉</span><div><b>Email</b><br>azizullahwork786@gmail.com</div></div>
+          <div class="contact-detail"><span>☎</span><div><b>Phone</b><br>+92 3319851198</div></div>
+          <small>Your satisfaction is our pride,\
+Your trust is our strength.\
+We always strive to serve you best,\
+Because you make our business special! ❤️</small>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <h3>Send an Enquiry</h3>
+          <label for="name">Your Name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Email Address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="interest">I am interested in</label>
+          <select id="interest" name="interest"><option>Buying grain</option><option>Selling grain</option><option>General information</option></select>
+          <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Write your enquiry..." required></textarea>
+          <button class="btn btn-primary submit-btn" type="submit">Send Message</button>
+          <p class="form-message" id="formMessage" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-content"><a class="brand" href="#home">🌾 REHMAN<span> COMMISSION SHOP</span></a><p>© <span id="year"></span> REHMAN COMMISSION SHOP NEW GALA MANDI RAJANPUR</p><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
